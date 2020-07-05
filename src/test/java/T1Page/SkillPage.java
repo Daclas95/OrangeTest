@@ -40,7 +40,7 @@ public class SkillPage extends TestBase {
             LOGGER.info("i have found and deleted");
         }
         else {
-            LOGGER.info("Sooo Sad");
+            LOGGER.info("Don't have any data");
         }
 
     }
