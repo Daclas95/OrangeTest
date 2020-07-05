@@ -5,6 +5,7 @@ import controllers.TestBase;
 import org.apache.log4j.Logger;
 import org.testng.annotations.Test;
 import testData.Skill;
+import testData.SkillCheck;
 
 public class SkillPage extends TestBase {
     private static final Logger LOGGER = Logger.getLogger(SkillPage.class);
@@ -29,10 +30,18 @@ public class SkillPage extends TestBase {
         }
 
     }
-    @Test(priority = 1)
-    public static void Delete(){
-        MethodBase.click_ByXpath("//a[@id=\"menu_admin_viewSkills\"]");//   SkillPageClick
-        MethodBase.click_ById("checkAll"); // click check Box
-        MethodBase.click_ById("btnDel");//   Delete btn
+    @Test(priority = 1,dataProviderClass = SkillCheck.class,dataProvider = "SkillCheck")
+    public static void Delete(String name,String names){
+            MethodBase.click_ByXpath("//a[@id=\"menu_admin_viewSkills\"]");//   SkillPageClick
+        if (MethodBase.SelectText_ByLink(name).equals(names))
+        {
+            MethodBase.click_ByXpath("//input[@name=\"chkListRecord[]\"]"); // click check Box
+            MethodBase.click_ById("btnDel");//   Delete btn
+            LOGGER.info("i have found and deleted");
+        }
+        else {
+            LOGGER.info("Sooo Sad");
+        }
+
     }
 }

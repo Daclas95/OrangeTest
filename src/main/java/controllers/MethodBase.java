@@ -475,5 +475,8 @@ public class MethodBase extends Constants {
         softAssert.assertTrue(hh,Text);
         softAssert.assertAll();
     }
+    public static String SelectText_ByLink(String locator) {
+        return getDriver().findElement(By.linkText(locator)).getText();
+    }
 
 }
