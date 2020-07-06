@@ -4,15 +4,19 @@ import controllers.MethodBase;
 import controllers.TestBase;
 import org.apache.log4j.Logger;
 import org.testng.annotations.Test;
+import org.testng.asserts.SoftAssert;
 import testData.Skill;
 import testData.SkillCheck;
 
 public class SkillPage extends TestBase {
     private static final Logger LOGGER = Logger.getLogger(SkillPage.class);
+    private static SoftAssert softAssert;
+
 
     @Test(priority = 0,dataProviderClass = Skill.class,dataProvider = "Skill")
     public static void Hi(String name,String Desc,String Status,String alertmsg){
-/**/    LOGGER.info("now starting Skill");
+        softAssert = new SoftAssert();
+        /**/    LOGGER.info("now starting Skill");
         MethodBase.click_ByXpath("//a[@id=\"menu_admin_viewSkills\"]");//   SkillPageClick
         MethodBase.assertTrue_ByXpath("//*[@id=\"recordsListDiv\"]/div[1]/h1","DisplayNot visible");//For check
         MethodBase.click_ById("btnAdd");//   ClickAddButton
@@ -24,11 +28,10 @@ public class SkillPage extends TestBase {
             LOGGER.info("VeryGood");
         }
         else{
-
-            MethodBase.assertEqual_Text_ByXpath("//span[@for=\"skill_name\"]",alertmsg);
+            softAssert.assertEquals(MethodBase.get_Text("//span[@for=\"skill_name\"]"),alertmsg,"what happened");
             LOGGER.info(alertmsg);
         }
-
+        softAssert.assertAll();
     }
     @Test(priority = 1,dataProviderClass = SkillCheck.class,dataProvider = "SkillCheck")
     public static void Delete(String name,String names){

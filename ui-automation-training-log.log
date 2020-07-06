@@ -996,3 +996,128 @@
 2020-07-05 17:59:13 INFO  TestBase:47 - Test name: Hi
 2020-07-05 17:59:13 INFO  TestBase:61 - Executed test case name:Hi Execution Results : [TestResult name={null} status=CREATED method=SkillPage.Hi(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:T1Page.SkillPage@3d74bf60] output={null}]
 2020-07-05 17:59:13 INFO  TestBase:54 - Closing Browser
+2020-07-06 13:52:46 INFO  Skill:21 - row = 5 columns = 4
+2020-07-06 13:52:46 INFO  TestBase:25 - Initiate Browser
+2020-07-06 13:52:57 INFO  TestBase:31 - Browser Initiated
+2020-07-06 13:53:05 INFO  TestBase:47 - Test name: Hi
+2020-07-06 13:53:05 INFO  SkillPage:15 - now starting Skill
+2020-07-06 13:53:06 INFO  SkillPage:29 - Required
+2020-07-06 13:53:06 INFO  TestBase:61 - Executed test case name:Hi Execution Results : [TestResult name=Hi status=SUCCESS method=SkillPage.Hi(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:T1Page.SkillPage@4ac3c60d] output={null}]
+2020-07-06 13:53:06 INFO  TestBase:54 - Closing Browser
+2020-07-06 13:53:09 INFO  TestBase:56 - Browser Closed
+2020-07-06 13:53:09 INFO  TestBase:25 - Initiate Browser
+2020-07-06 13:53:17 INFO  TestBase:31 - Browser Initiated
+2020-07-06 13:53:25 INFO  TestBase:47 - Test name: Hi
+2020-07-06 13:53:25 INFO  SkillPage:15 - now starting Skill
+2020-07-06 13:53:27 INFO  SkillPage:29 - Required
+2020-07-06 13:53:27 INFO  TestBase:61 - Executed test case name:Hi Execution Results : [TestResult name=Hi status=SUCCESS method=SkillPage.Hi(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:T1Page.SkillPage@4ac3c60d] output={null}]
+2020-07-06 13:53:27 INFO  TestBase:54 - Closing Browser
+2020-07-06 13:53:29 INFO  TestBase:56 - Browser Closed
+2020-07-06 13:53:29 INFO  TestBase:25 - Initiate Browser
+2020-07-06 13:53:37 INFO  TestBase:31 - Browser Initiated
+2020-07-06 13:53:45 INFO  TestBase:47 - Test name: Hi
+2020-07-06 13:53:45 INFO  SkillPage:15 - now starting Skill
+2020-07-06 13:53:48 INFO  SkillPage:24 - VeryGood
+2020-07-06 13:53:48 INFO  TestBase:61 - Executed test case name:Hi Execution Results : [TestResult name=Hi status=SUCCESS method=SkillPage.Hi(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:T1Page.SkillPage@4ac3c60d] output={null}]
+2020-07-06 13:53:48 INFO  TestBase:54 - Closing Browser
+2020-07-06 13:53:50 INFO  TestBase:56 - Browser Closed
+2020-07-06 13:53:50 INFO  TestBase:25 - Initiate Browser
+2020-07-06 13:53:58 INFO  TestBase:31 - Browser Initiated
+2020-07-06 13:54:06 INFO  TestBase:47 - Test name: Hi
+2020-07-06 13:54:06 INFO  SkillPage:15 - now starting Skill
+2020-07-06 13:54:09 INFO  SkillPage:24 - VeryGood
+2020-07-06 13:54:09 INFO  TestBase:61 - Executed test case name:Hi Execution Results : [TestResult name=Hi status=SUCCESS method=SkillPage.Hi(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:T1Page.SkillPage@4ac3c60d] output={null}]
+2020-07-06 13:54:09 INFO  TestBase:54 - Closing Browser
+2020-07-06 13:54:11 INFO  TestBase:56 - Browser Closed
+2020-07-06 13:54:11 INFO  TestBase:25 - Initiate Browser
+2020-07-06 13:54:19 INFO  TestBase:31 - Browser Initiated
+2020-07-06 13:54:26 INFO  TestBase:47 - Test name: Hi
+2020-07-06 13:54:26 INFO  SkillPage:15 - now starting Skill
+2020-07-06 13:54:29 INFO  SkillPage:24 - VeryGood
+2020-07-06 13:54:29 INFO  TestBase:61 - Executed test case name:Hi Execution Results : [TestResult name=Hi status=SUCCESS method=SkillPage.Hi(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:T1Page.SkillPage@4ac3c60d] output={null}]
+2020-07-06 13:54:29 INFO  TestBase:54 - Closing Browser
+2020-07-06 13:54:31 INFO  TestBase:56 - Browser Closed
+2020-07-06 13:54:31 INFO  SkillCheck:21 - row = 3 columns = 2
+2020-07-06 13:54:31 INFO  TestBase:25 - Initiate Browser
+2020-07-06 13:54:39 INFO  TestBase:31 - Browser Initiated
+2020-07-06 13:54:47 INFO  TestBase:47 - Test name: Delete
+2020-07-06 13:54:49 INFO  SkillPage:40 - i have found and deleted
+2020-07-06 13:54:49 INFO  TestBase:61 - Executed test case name:Delete Execution Results : [TestResult name=Delete status=SUCCESS method=SkillPage.Delete(java.lang.String, java.lang.String)[pri:1, instance:T1Page.SkillPage@4ac3c60d] output={null}]
+2020-07-06 13:54:49 INFO  TestBase:54 - Closing Browser
+2020-07-06 13:54:51 INFO  TestBase:56 - Browser Closed
+2020-07-06 13:54:51 INFO  TestBase:25 - Initiate Browser
+2020-07-06 13:54:59 INFO  TestBase:31 - Browser Initiated
+2020-07-06 13:55:07 INFO  TestBase:47 - Test name: Delete
+2020-07-06 13:55:10 INFO  SkillPage:40 - i have found and deleted
+2020-07-06 13:55:10 INFO  TestBase:61 - Executed test case name:Delete Execution Results : [TestResult name=Delete status=SUCCESS method=SkillPage.Delete(java.lang.String, java.lang.String)[pri:1, instance:T1Page.SkillPage@4ac3c60d] output={null}]
+2020-07-06 13:55:10 INFO  TestBase:54 - Closing Browser
+2020-07-06 13:55:12 INFO  TestBase:56 - Browser Closed
+2020-07-06 13:55:12 INFO  TestBase:25 - Initiate Browser
+2020-07-06 13:55:20 INFO  TestBase:31 - Browser Initiated
+2020-07-06 13:55:27 INFO  TestBase:47 - Test name: Delete
+2020-07-06 13:55:30 INFO  SkillPage:40 - i have found and deleted
+2020-07-06 13:55:30 INFO  TestBase:61 - Executed test case name:Delete Execution Results : [TestResult name=Delete status=SUCCESS method=SkillPage.Delete(java.lang.String, java.lang.String)[pri:1, instance:T1Page.SkillPage@4ac3c60d] output={null}]
+2020-07-06 13:55:30 INFO  TestBase:54 - Closing Browser
+2020-07-06 13:55:32 INFO  TestBase:56 - Browser Closed
+2020-07-06 17:03:36 INFO  Skill:21 - row = 5 columns = 4
+2020-07-06 17:03:37 INFO  TestBase:25 - Initiate Browser
+2020-07-06 17:03:45 INFO  TestBase:31 - Browser Initiated
+2020-07-06 17:03:50 INFO  TestBase:47 - Test name: Hi
+2020-07-06 17:03:50 INFO  SkillPage:19 - now starting Skill
+2020-07-06 17:03:51 INFO  SkillPage:33 - Required
+2020-07-06 17:03:51 INFO  SkillPage:35 - Required
+2020-07-06 17:03:51 INFO  TestBase:61 - Executed test case name:Hi Execution Results : [TestResult name=Hi status=SUCCESS method=SkillPage.Hi(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:T1Page.SkillPage@41e36e46] output={null}]
+2020-07-06 17:03:51 INFO  TestBase:54 - Closing Browser
+2020-07-06 17:03:53 INFO  TestBase:56 - Browser Closed
+2020-07-06 17:03:53 INFO  TestBase:25 - Initiate Browser
+2020-07-06 17:04:01 INFO  TestBase:31 - Browser Initiated
+2020-07-06 17:04:06 INFO  TestBase:47 - Test name: Hi
+2020-07-06 17:04:06 INFO  SkillPage:19 - now starting Skill
+2020-07-06 17:04:07 INFO  SkillPage:33 - Required
+2020-07-06 17:04:07 INFO  SkillPage:35 - Required
+2020-07-06 17:04:07 INFO  TestBase:61 - Executed test case name:Hi Execution Results : [TestResult name=Hi status=SUCCESS method=SkillPage.Hi(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:T1Page.SkillPage@41e36e46] output={null}]
+2020-07-06 17:04:07 INFO  TestBase:54 - Closing Browser
+2020-07-06 17:04:09 INFO  TestBase:56 - Browser Closed
+2020-07-06 17:04:09 INFO  TestBase:25 - Initiate Browser
+2020-07-06 17:04:16 INFO  TestBase:31 - Browser Initiated
+2020-07-06 17:04:22 INFO  TestBase:47 - Test name: Hi
+2020-07-06 17:04:22 INFO  SkillPage:19 - now starting Skill
+2020-07-06 17:04:24 INFO  SkillPage:28 - VeryGood
+2020-07-06 17:04:24 INFO  TestBase:61 - Executed test case name:Hi Execution Results : [TestResult name=Hi status=SUCCESS method=SkillPage.Hi(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:T1Page.SkillPage@41e36e46] output={null}]
+2020-07-06 17:04:24 INFO  TestBase:54 - Closing Browser
+2020-07-06 17:04:25 INFO  TestBase:56 - Browser Closed
+2020-07-06 17:04:25 INFO  TestBase:25 - Initiate Browser
+2020-07-06 17:04:33 INFO  TestBase:31 - Browser Initiated
+2020-07-06 17:04:39 INFO  TestBase:47 - Test name: Hi
+2020-07-06 17:04:39 INFO  SkillPage:19 - now starting Skill
+2020-07-06 17:04:41 INFO  SkillPage:28 - VeryGood
+2020-07-06 17:04:41 INFO  TestBase:61 - Executed test case name:Hi Execution Results : [TestResult name=Hi status=SUCCESS method=SkillPage.Hi(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:T1Page.SkillPage@41e36e46] output={null}]
+2020-07-06 17:04:41 INFO  TestBase:54 - Closing Browser
+2020-07-06 17:04:43 INFO  TestBase:56 - Browser Closed
+2020-07-06 17:04:43 INFO  TestBase:25 - Initiate Browser
+2020-07-06 17:04:50 INFO  TestBase:31 - Browser Initiated
+2020-07-06 17:04:54 INFO  TestBase:47 - Test name: Hi
+2020-07-06 17:04:54 INFO  TestBase:61 - Executed test case name:Hi Execution Results : [TestResult name={null} status=CREATED method=SkillPage.Hi(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:T1Page.SkillPage@41e36e46] output={null}]
+2020-07-06 17:04:54 INFO  TestBase:54 - Closing Browser
+2020-07-06 17:06:51 INFO  Skill:21 - row = 5 columns = 4
+2020-07-06 17:06:51 INFO  TestBase:25 - Initiate Browser
+2020-07-06 17:06:59 INFO  TestBase:31 - Browser Initiated
+2020-07-06 17:07:04 INFO  TestBase:47 - Test name: Hi
+2020-07-06 17:07:04 INFO  SkillPage:19 - now starting Skill
+2020-07-06 17:07:05 INFO  SkillPage:35 - Requred
+2020-07-06 17:07:05 INFO  TestBase:61 - Executed test case name:Hi Execution Results : [TestResult name=Hi status=FAILURE method=SkillPage.Hi(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:T1Page.SkillPage@41e36e46] output={null}]
+2020-07-06 17:07:05 INFO  TestBase:54 - Closing Browser
+2020-07-06 17:07:07 INFO  TestBase:56 - Browser Closed
+2020-07-06 17:07:07 INFO  TestBase:25 - Initiate Browser
+2020-07-06 17:07:14 INFO  TestBase:31 - Browser Initiated
+2020-07-06 17:07:20 INFO  TestBase:47 - Test name: Hi
+2020-07-06 17:07:20 INFO  SkillPage:19 - now starting Skill
+2020-07-06 17:07:22 INFO  SkillPage:35 - Required
+2020-07-06 17:07:22 INFO  TestBase:61 - Executed test case name:Hi Execution Results : [TestResult name=Hi status=SUCCESS method=SkillPage.Hi(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:T1Page.SkillPage@41e36e46] output={null}]
+2020-07-06 17:07:22 INFO  TestBase:54 - Closing Browser
+2020-07-06 17:07:23 INFO  TestBase:56 - Browser Closed
+2020-07-06 17:07:23 INFO  TestBase:25 - Initiate Browser
+2020-07-06 17:07:29 INFO  TestBase:31 - Browser Initiated
+2020-07-06 17:07:29 INFO  TestBase:47 - Test name: Hi
+2020-07-06 17:07:29 INFO  TestBase:61 - Executed test case name:Hi Execution Results : [TestResult name={null} status=CREATED method=SkillPage.Hi(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:T1Page.SkillPage@41e36e46] output={null}]
+2020-07-06 17:07:29 INFO  TestBase:54 - Closing Browser
